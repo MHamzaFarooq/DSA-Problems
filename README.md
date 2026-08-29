@@ -1,42 +1,54 @@
-# Daily DSA Problems 🚀
+# Daily DSA Tracker 🚀
 
-Welcome to my daily problem-solving journey as I work towards unlocking my big brain.
-
-🎯 **Goal:** Build strong problem-solving skills, improve my understanding of Data Structures and Algorithms, and prepare for software engineering interviews.
+Goal: Master DSA & LeetCode patterns for engineering interviews.
 
 ---
 
-## 📈 Progress Tracker
+## 📈 Progress Log
 
-| Day       | Problems Solved                                                                                                                                                                                | Notes                                                                                                                                                          |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| **Day 1** | 1. [Missing Number](./arrays/missing-number.js)<br><br>2. [Duplicate Values](./arrays/duplicate-values.js)<br><br>3. [Dissapeared Numbers from Array](./arrays/dissapeared-numbers.js)<br><br> | Learned how to use the mathematical sum formula (Gauss's Law) `n * (n + 1) / 2` to find a missing number.<br><br>Learned to harness the power of Sets.<br><br> | <br><br>Can be done with O(1) space complexity but will get to it later.<br><br> |
-| **Day 2** | _Coming soon_                                                                                                                                                                                  |                                                                                                                                                                |
-| **Day 3** | _Coming soon_                                                                                                                                                                                  |                                                                                                                                                                |
-| **Day 4** | _Coming soon_                                                                                                                                                                                  |                                                                                                                                                                |
-| **Day 5** | _Coming soon_                                                                                                                                                                                  |                                                                                                                                                                |
+### Day 1
 
-> _I will keep adding problems and notes as I progress through my 100-hour DSA journey._
+- **Problems Solved:**
+  1. [Missing Number](./arrays/missing-number.js)
+  2. [Contains Duplicate](./arrays/duplicate-values.js)
+  3. [Find All Numbers Disappeared in an Array](./arrays/disappeared-numbers.js)
+- **Key Takeaways:**
+  - Used Gauss's Law `n * (n + 1) / 2` for `O(n)` time / `O(1)` space missing number detection.
+  - Used bitwise `XOR` (`^`) as an alternative arithmetic overflow-safe approach.
+  - Used `Set` for `O(1)` lookups.
+  - Learned the in-place array element negation trick to find disappeared numbers in `O(1)` auxiliary space.
 
 ---
 
-## 🗂️ Repository Structure
+### Day 2
+
+- **Problems Solved:**
+  - 1. _[Problem Name](./path/to/file.js)_
+- **Key Takeaways:**
+  - _Add notes here..._
+
+---
+
+### Day 3
+
+- **Problems Solved:**
+  - 1. _[Problem Name](./path/to/file.js)_
+- **Key Takeaways:**
+  - _Add notes here..._
+
+---
+
+## 🗂️ Folder Structure
 
 ```text
 javascript-dsa/
-│
 ├── arrays/
 ├── strings/
 ├── hashing/
+├── two-pointers/
+├── sliding-window/
+├── stack-queue/
 ├── linked-lists/
-├── stacks/
-├── queues/
-├── trees/
-├── graphs/
-├── searching/
-├── sorting/
-├── recursion/
-├── dynamic-programming/
-│
+├── trees-graphs/
 └── README.md
 ```
