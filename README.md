@@ -1,54 +1,23 @@
-# Daily DSA Tracker 🚀
+# Daily DSA Problems 🚀
 
-Goal: Master DSA & LeetCode patterns for engineering interviews.
-
----
-
-## 📈 Progress Log
-
-### Day 1
-
-- **Problems Solved:**
-  1. [Missing Number](./arrays/missing-number.js)
-  2. [Contains Duplicate](./arrays/duplicate-values.js)
-  3. [Find All Numbers Disappeared in an Array](./arrays/disappeared-numbers.js)
-- **Key Takeaways:**
-  - Used Gauss's Law `n * (n + 1) / 2` for `O(n)` time / `O(1)` space missing number detection.
-  - Used bitwise `XOR` (`^`) as an alternative arithmetic overflow-safe approach.
-  - Used `Set` for `O(1)` lookups.
-  - Learned the in-place array element negation trick to find disappeared numbers in `O(1)` auxiliary space.
+🎯 **Goal:** Build strong problem-solving skills, master patterns, and prepare for interviews.
 
 ---
 
-### Day 2
+## 📈 Progress Tracker
 
-- **Problems Solved:**
-  - 1. _[Problem Name](./path/to/file.js)_
-- **Key Takeaways:**
-  - _Add notes here..._
-
----
-
-### Day 3
-
-- **Problems Solved:**
-  - 1. _[Problem Name](./path/to/file.js)_
-- **Key Takeaways:**
-  - _Add notes here..._
+| Day       | Problems Solved                                                                                                                                                     | Key Takeaways & Notes                                                                                                                                                                                                    |
+| :-------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Day 1** | 1. [Missing Number](./arrays/missing-number.js)<br>2. [Duplicate Values](./arrays/duplicate-values.js)<br>3. [Disappeared Numbers](./arrays/disappeared-numbers.js) | • Used Gauss's Law `n * (n + 1) / 2` for `O(n)` math approach.<br>• Learned `XOR` bitwise trick for overflow protection.<br>• Used `Set` for `O(1)` lookups.<br>• Discovered `O(1)` space in-place index negation trick. |
+| **Day 2** | 1. [Problem Name](./arrays/file.js)                                                                                                                                 | • Notes here...                                                                                                                                                                                                          |
+| **Day 3** | 1. [Problem Name](./arrays/file.js)                                                                                                                                 | • Notes here...                                                                                                                                                                                                          |
 
 ---
 
-## 🗂️ Folder Structure
+## 🗂️ Quick Copy-Paste Row Template
 
-```text
-javascript-dsa/
-├── arrays/
-├── strings/
-├── hashing/
-├── two-pointers/
-├── sliding-window/
-├── stack-queue/
-├── linked-lists/
-├── trees-graphs/
-└── README.md
+Copy this row whenever you start a new day:
+
+```markdown
+| **Day X** | 1. [Title](./folder/file.js)<br>2. [Title](./folder/file.js) | • Learned concept X...<br>• Solved using technique Y... |
 ```
