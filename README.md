@@ -1,23 +1,42 @@
 # Daily DSA Problems 🚀
 
-🎯 **Goal:** Build strong problem-solving skills, master patterns, and prepare for interviews.
+Welcome to my daily problem-solving journey as I work towards unlocking my big brain.
+
+🎯 **Goal:** Build strong problem-solving skills, improve my understanding of Data Structures and Algorithms, and prepare for software engineering interviews.
 
 ---
 
 ## 📈 Progress Tracker
 
-| Day       | Problems Solved                                                                                                                                                     | Key Takeaways & Notes                                                                                                                                                                                                    |
-| :-------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Day 1** | 1. [Missing Number](./arrays/missing-number.js)<br>2. [Duplicate Values](./arrays/duplicate-values.js)<br>3. [Disappeared Numbers](./arrays/disappeared-numbers.js) | • Used Gauss's Law `n * (n + 1) / 2` for `O(n)` math approach.<br>• Learned `XOR` bitwise trick for overflow protection.<br>• Used `Set` for `O(1)` lookups.<br>• Discovered `O(1)` space in-place index negation trick. |
-| **Day 2** | 1. [Problem Name](./arrays/file.js)                                                                                                                                 | • Notes here...                                                                                                                                                                                                          |
-| **Day 3** | 1. [Problem Name](./arrays/file.js)                                                                                                                                 | • Notes here...                                                                                                                                                                                                          |
+| Day       | Problems Solved                                                                                                                    | Notes                                                                                                                                                          |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Day 1** | 1. [Missing Number](./arrays/missing-number.js)<br><br>2. [Duplicate Values](./arrays/duplicate-values.js)<br><br>3. _Coming soon_ | Learned how to use the mathematical sum formula (Gauss's Law) `n * (n + 1) / 2` to find a missing number.<br><br>Learned to harness the power of Sets.<br><br> |
+| **Day 2** | _Coming soon_                                                                                                                      |                                                                                                                                                                |
+| **Day 3** | _Coming soon_                                                                                                                      |                                                                                                                                                                |
+| **Day 4** | _Coming soon_                                                                                                                      |                                                                                                                                                                |
+| **Day 5** | _Coming soon_                                                                                                                      |                                                                                                                                                                |
+
+> _I will keep adding problems and notes as I progress through my 100-hour DSA journey._
 
 ---
 
-## 🗂️ Quick Copy-Paste Row Template
+## 🗂️ Repository Structure
 
-Copy this row whenever you start a new day:
-
-```markdown
-| **Day X** | 1. [Title](./folder/file.js)<br>2. [Title](./folder/file.js) | • Learned concept X...<br>• Solved using technique Y... |
+```text
+javascript-dsa/
+│
+├── arrays/
+├── strings/
+├── hashing/
+├── linked-lists/
+├── stacks/
+├── queues/
+├── trees/
+├── graphs/
+├── searching/
+├── sorting/
+├── recursion/
+├── dynamic-programming/
+│
+└── README.md
 ```
