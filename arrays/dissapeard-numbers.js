@@ -4,6 +4,7 @@ let nums = [4, 3, 2, 7, 8, 2, 3, 1];
 function findDisappearedNumbers(nums) {
   let uniqueNumbers = new Set(nums);
   let missingNumbers = [];
+  let range = nums.length + 1;
   for (let i = 1; i < nums.length + 1; i++) {
     if (uniqueNumbers.has(i) === false) {
       missingNumbers.push(i);

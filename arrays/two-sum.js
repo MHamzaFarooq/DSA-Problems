@@ -18,3 +18,4 @@ function twoSum(array, target) {
 }
 
 console.log(twoSum(arr, target));
+git
